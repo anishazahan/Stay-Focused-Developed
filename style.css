@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.top-section{
+    
+    
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-design{
+    display: flex;
+    padding: 5%;
+}
+.top-design h1{
+    font-size: 50px;
+    border-left: 5px solid rgb(228, 29, 152);
+    padding: 0;
+    margin-top: 10%;
+    padding: 10px;
+    line-height: 1.5;
+}
+.left-section{
+    width: 50%;
+    margin-left: 3%;
+}
+.left-section .span{
+    color: #000;
+    display: block;
+    font-size: 14px;
+    margin-top: 10%;
+}
+.left-section span{
+    color: rgb(150, 10, 21);
+    margin-top: 0;
+}
+ .first-heading{
+     margin-bottom: 5%;
+    
+}
+
+.left-section a{
+    text-decoration: none;
+    margin-top: 3%;
+    padding: 15px 35px;
+    
+    background-color: rgb(150, 10, 21);
+    border-radius: 5px;
+    color: white;
+    margin-top: 3%;
+    font-weight: 600;
+}
+.top-section p{
+    width: 80%;
+    color: rgb(37, 38, 39);
+    margin-top: 5%;
+    margin-bottom: 8%;
+    
+}
+
+
+.anisha{
+    color: rgb(231, 65, 15);
+}
+.right-section{
+    width: 50%;
+    margin-left: 5%;
+}
+.right-section img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom white,black);
+    
+
+}
+
+
+
+
+
+
+
+.card-section{
+    margin-top: 2%;
+}
+.card-heading{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.card-span{
+    color: rgb(150, 10, 21);
+    
+}
+.card1{
+
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 2%;
+    background-color: rgb(237, 245, 246);
+    padding-left: 2%;
+    padding-right: 2%
+    border-radius: 10px;
+}
+    
+.card{
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-around;
+    
+}
+.card1 img{
+    width: 60%;
+    /* margin: 5%; */
+}
+.card1 p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .............MIDDLE SECTIOM......... */
+
+.middle-section{
+    margin-top: 5%;
+   
+    background-repeat: no-repeat;
+}
+.middle-design{
+    display: flex;
+}
+.left-section{
+ width: 50%;
+}
+.left-section img{
+    width: 450px;
+    height: 450px;
+    
+    margin-left: 10%;
+}
+.right-section h1{
+    margin-top: 10%;
+    margin-bottom: 4%;
+    line-height: 1;
+    font-size: 30px;
+}
+
+
+.right-section a{
+    text-decoration: none;
+    margin-top: 3%;
+    padding: 15px 20px;
+    
+    background-color: rgb(156, 16, 27);
+    border-radius: 5px;
+    color: white;
+    margin-top: 3%;
+    font-weight: 600;
+    
+}
+.right-section p{
+    width: 95%;
+    color: rgb(17, 17, 17);
+    margin-top: 2%;
+    margin-bottom: 8%;
+    line-height: 1.5;
+    font-size: 14px;
+
+}
+
+
+
+
+.last-section{
+    margin-top: 5%;
+    background-color: thistle;
+   
+    text-align: center;
+}
+.contact{
+    padding: 2%;
+   
+    
+}
+.contact h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.div2 label{
+    margin-right: 40px;
+
+}
+.div1 label{
+   margin-right: 5px;
+}
+.div3 button{
+    background-color: rgb(156, 16, 27);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 2%;
+
+}
+.contact input{
+    margin: 10px 0;
+    padding: 9px;
+    background-color: #ddd;
+   
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 3%;
+}
+.footer h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.footer span{
+    color: rgb(156, 16, 27);
+    margin-right: 5px;
+}
+
+
+.footer p{
+    margin:auto;
+    color: white;
+    
+    font-size: 13px;
+}
